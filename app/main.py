@@ -37,3 +37,5 @@ class CarWashStation:
         total_score = self.average_rating * self.count_of_ratings + new_rating
         self.count_of_ratings += 1
         self.average_rating = round(total_score / self.count_of_ratings, 1)
+
+print("Ready")
